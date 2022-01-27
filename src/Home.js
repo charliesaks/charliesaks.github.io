@@ -8,18 +8,20 @@ import ProductHowItWorks from './modules/views/ProductHowItWorks';
 import ProductCTA from './modules/views/ProductCTA';
 import AppAppBar from './modules/views/AppAppBar';
 import withRoot from './modules/withRoot';
+import SectionDescription from './modules/views/SectionDescription';
 
 function Index() {
   return (
     <React.Fragment>
       <AppAppBar />
       <ProductHero />
-      <ProductValues />
-      <ProductCategories />
-      <ProductHowItWorks />
-      <ProductCTA />
-      <ProductSmokingHero />
-      <AppFooter />
+      <SectionDescription />
+      {/* <ProductValues /> */}
+      {/* <ProductCategories /> */}
+      {/* <ProductHowItWorks /> */}
+      {/* <ProductCTA /> */}
+      {/* <ProductSmokingHero /> */}
+      {/* <AppFooter /> */}
     </React.Fragment>
   );
 }

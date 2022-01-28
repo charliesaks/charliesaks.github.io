@@ -9,13 +9,16 @@ import ProductCTA from './modules/views/ProductCTA';
 import AppAppBar from './modules/views/AppAppBar';
 import withRoot from './modules/withRoot';
 import SectionDescription from './modules/views/SectionDescription';
+import SectionServices from './modules/views/SectionServices';
 
 function Index() {
   return (
     <React.Fragment>
       <AppAppBar />
-      <ProductHero />
       <SectionDescription />
+      <SectionServices />
+
+      <ProductHero />
       <ProductValues />
       <ProductCategories />
       <ProductHowItWorks />

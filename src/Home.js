@@ -10,6 +10,7 @@ import AppAppBar from './modules/views/AppAppBar';
 import withRoot from './modules/withRoot';
 import SectionDescription from './modules/views/SectionDescription';
 import SectionServices from './modules/views/SectionServices';
+import SectionSkills from './modules/views/SectionSkills';
 
 function Index() {
   return (
@@ -17,6 +18,7 @@ function Index() {
       <AppAppBar />
       <SectionDescription />
       <SectionServices />
+      <SectionSkills />
 
       <ProductHero />
       <ProductValues />

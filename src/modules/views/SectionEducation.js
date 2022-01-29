@@ -1,45 +1,18 @@
 import React from "react";
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
-import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '../components/Typography';
 
-// // nodejs library that concatenates classes
-// import classNames from "classnames";
-// // core components
-// import GridContainer from "../../../components/Grid/GridContainer.js";
-// import GridItem from "../../../components/Grid/GridItem.js";
-// import Card from "../../../components/Card/Card.js";
-// import CardBody from "../../../components/Card/CardBody.js";
-// import CardFooter from "../../../components/Card/CardFooter.js";
-// // @material-ui/core components
-// import { makeStyles } from "@mui/styles";
-
 // library used for cool animations
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 
-// import examplesStyle from "../../../assets/jss/material-kit-pro-react/views/presentationSections/examplesStyle.js";
-// import imagesStyles from "../../../assets/jss/material-kit-pro-react/imagesStyles.js";
-
-// const styles = {
-//   ...examplesStyle,
-//   ...imagesStyles,
-//   textCenter: {
-//     textAlign: "center"
-//   },
-// };
-
-// const useStyles = makeStyles(styles);
-
 export default function SectionEducation() {
-  // const classes = useStyles();
   return (
     <Box
       component="section"

@@ -14,6 +14,7 @@ import SectionSkills from './modules/views/SectionSkills';
 import SectionProjects from './modules/views/SectionProjects';
 import SectionEducation from './modules/views/SectionEducation';
 import SectionPatents from './modules/views/SectionPatents';
+import SectionCertificates from './modules/views/SectionCertificates';
 
 function Index() {
   return (
@@ -25,6 +26,7 @@ function Index() {
       <SectionProjects />
       <SectionEducation />
       <SectionPatents />
+      <SectionCertificates />
 
       <ProductHero />
       <ProductValues />

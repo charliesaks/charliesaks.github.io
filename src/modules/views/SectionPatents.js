@@ -46,7 +46,7 @@ export default function SectionPatents() {
           </Grid>
 
           <Grid item xs={12} md={5} p={2} m={2}>
-            <AnimationOnScroll animateIn="animate__fadeInLeft">
+            <AnimationOnScroll animateIn="animate__fadeInRight">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <CardContent>
@@ -87,7 +87,7 @@ export default function SectionPatents() {
           </Grid>
 
           <Grid item xs={12} md={5} p={2} m={2}>
-            <AnimationOnScroll animateIn="animate__fadeInLeft">
+            <AnimationOnScroll animateIn="animate__fadeInRight">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <CardContent>

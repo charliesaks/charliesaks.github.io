@@ -11,6 +11,7 @@ import withRoot from './modules/withRoot';
 import SectionDescription from './modules/views/SectionDescription';
 import SectionServices from './modules/views/SectionServices';
 import SectionSkills from './modules/views/SectionSkills';
+import SectionProjects from './modules/views/SectionProjects';
 
 function Index() {
   return (
@@ -19,6 +20,7 @@ function Index() {
       <SectionDescription />
       <SectionServices />
       <SectionSkills />
+      <SectionProjects />
 
       <ProductHero />
       <ProductValues />

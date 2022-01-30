@@ -1,0 +1,71 @@
+import React from "react";
+
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Icon from '@mui/material/Icon';
+import Typography from '../components/Typography';
+
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+export default function SectionContact() {
+  // const classes = useStyles();
+  /*
+  const LinkedInIcon = ({className}) => {
+    return <i className={"fab fa-linkedin " + className}></i>;
+  }
+  */
+
+  return (
+    <Box
+      component="section"
+      sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
+    >
+      <Container component="section" sx={{ mt: 15, mb: 30, position: 'relative' }}>
+        <Typography variant="h4" marked="center" align="center" component="h2">
+          Get In Touch
+        </Typography>
+
+        <Grid container direction="row" alignItems="center" justifyContent="center">
+
+          <Grid item xs={12} p={2} m={2}>
+            <Typography variant="h5" marked="center" align="center" component="h2">
+              Have a question or want to chat?
+            </Typography>
+          </Grid>
+
+          <Grid item xs={2} p={2} m={2}>
+            <Button
+              href="mailto:charliesakamaki@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="contained"
+              size="large"
+              color="success"
+            >
+              <Icon sx={{ color: "white" }}>mail_outline</Icon>
+              <Typography color="white" variant="h6">E-mail</Typography>
+            </Button>
+          </Grid>
+
+          <Grid item xs={2} p={2} m={2}>
+            <Button
+              href="https://linkedin.com/in/charlie-sakamaki"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="contained"
+              size="large"
+              color="info"
+            >
+              <LinkedInIcon sx={{ color: "white" }} />
+              <Typography color="white" variant="h6">LinkedIn</Typography>
+            </Button>
+          </Grid>
+
+        </Grid>
+      </Container>
+    </Box>
+
+  );
+}

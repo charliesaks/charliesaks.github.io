@@ -17,10 +17,10 @@ export default function SectionServices() {
     <Box
       id="services"
       component="section"
-      sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
+      sx={{ display: 'flex', overflow: 'hidden', background: "url(images/img_bg1.jpg) no-repeat center", backgroundSize: "cover" }}
     >
       <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
-        <Typography gutterBottom variant="h4" marked="center" align="center" component="h2">
+        <Typography gutterBottom color="white" variant="h3" marked="center" align="center">
           Services
         </Typography>
 

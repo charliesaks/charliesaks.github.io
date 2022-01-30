@@ -28,7 +28,7 @@ export default function SectionSkills() {
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
     >
       <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
-        <Typography gutterBottom variant="h4" marked="center" align="center" component="h2">
+        <Typography gutterBottom variant="h3" marked="center" align="center">
           Skills
         </Typography>
 
@@ -37,7 +37,7 @@ export default function SectionSkills() {
             <CardContent>
               <Typography variant="h6">Languages</Typography>
               <hr />
-              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2}>
+              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2} spacing={2}>
 
                 <Grid item xs={12} sm={4} md={3} lg={2}>
                   <Box
@@ -87,7 +87,7 @@ export default function SectionSkills() {
             <CardContent>
               <Typography variant="h6">Web Technologies</Typography>
               <hr />
-              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2}>
+              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2} spacing={2}>
 
                 <Grid item xs={12} sm={4} md={3} lg={2}>
                   <Box
@@ -209,7 +209,7 @@ export default function SectionSkills() {
             <CardContent>
               <Typography variant="h6">Web Technologies</Typography>
               <hr />
-              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2}>
+              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2} spacing={2}>
 
                 <Grid item xs={12} sm={4} md={3} lg={2}>
                   <Box
@@ -271,7 +271,7 @@ export default function SectionSkills() {
             <CardContent>
               <Typography variant="h6">Operating Systems</Typography>
               <hr />
-              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2}>
+              <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2} spacing={2}>
 
                 <Grid item xs={12} sm={4} md={3} lg={2}>
                   <Box

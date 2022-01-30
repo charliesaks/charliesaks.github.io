@@ -14,17 +14,17 @@ export default function SectionContact() {
     <Box
       id="contact"
       component="section"
-      sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
+      sx={{ display: 'flex', overflow: 'hidden', background: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/charlie/Diamond-head-top-pano.jpg)", backgroundPosition: "50%", backgroundSize: "cover" }}
     >
       <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
-        <Typography gutterBottom variant="h4" marked="center" align="center" component="h2">
+        <Typography color="white" gutterBottom variant="h3" marked="center" align="center">
           Get In Touch
         </Typography>
 
         <Grid container direction="row" alignItems="center" justifyContent="center">
 
           <Grid item xs={12} p={2} m={2}>
-            <Typography variant="h6" marked="center" align="center" component="h2">
+            <Typography color="white" variant="h6" marked="center" align="center" component="h2">
               Have a question or want to chat?
             </Typography>
           </Grid>

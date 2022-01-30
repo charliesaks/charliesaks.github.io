@@ -20,7 +20,7 @@ export default function SectionExperience() {
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'white' }}
     >
       <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
-        <Typography gutterBottom variant="h4" marked="center" align="center" component="h2">
+        <Typography gutterBottom variant="h3" marked="center" align="center">
           Experience
         </Typography>
 

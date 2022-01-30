@@ -28,6 +28,10 @@ import presentationStyle from "./modules/assets/jss/presentationStyle.js";
 const useStyles = makeStyles(presentationStyle);
 
 function Index() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+  });
   const classes = useStyles();
   return (
     <React.Fragment>

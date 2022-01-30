@@ -67,9 +67,9 @@ export default function Header(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
-        {/* <Button className={classes.title}>
-          <Link to="/">{brand}</Link>
-        </Button> */}
+        {/* <Button color="secondary"> */}
+          {brand}
+        {/* </Button> */}
         <Hidden lgDown implementation="js" className={classes.hidden}>
           <div className={classes.collapse}><HeaderLinks dropdownHoverColor="info" callbackOnClick={null} /></div>
         </Hidden>

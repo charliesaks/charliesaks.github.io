@@ -1,5 +1,5 @@
 import {
-  // grayColor,
+  grayColor,
   whiteColor,
   mlAuto,
   hexToRgb
@@ -9,18 +9,18 @@ import tooltip from "./tooltipsStyle.js";
 
 const headerLinksStyle = theme => ({
   list: {
-    // [theme.breakpoints.up("lg")]: {
-    //   WebkitBoxAlign: "center",
-    //   MsFlexAlign: "center",
-    //   alignItems: "center",
-    //   WebkitBoxOrient: "horizontal",
-    //   WebkitBoxDirection: "normal",
-    //   MsFlexDirection: "row",
-    //   flexDirection: "row"
-    // },
-    // [theme.breakpoints.down("md")]: {
-    //   display: "block"
-    // },
+    [theme.breakpoints.up("lg")]: {
+      WebkitBoxAlign: "center",
+      MsFlexAlign: "center",
+      alignItems: "center",
+      WebkitBoxOrient: "horizontal",
+      WebkitBoxDirection: "normal",
+      MsFlexDirection: "row",
+      flexDirection: "row"
+    },
+    [theme.breakpoints.down("md")]: {
+      display: "block"
+    },
     flexDirection: "column",
     marginTop: "0px",
     display: "flex",
@@ -36,24 +36,24 @@ const headerLinksStyle = theme => ({
     display: "block",
     width: "auto",
     margin: "0",
-    padding: "0"
-    // [theme.breakpoints.down("md")]: {
-    //   "& ul": {
-    //     maxHeight: "400px",
-    //     overflow: "scroll"
-    //   },
-    //   width: "100%",
-    //   "&:not(:last-child)": {
-    //     "&:after": {
-    //       width: "calc(100% - 30px)",
-    //       content: '""',
-    //       display: "block",
-    //       height: "1px",
-    //       marginLeft: "15px",
-    //       backgroundColor: grayColor[14]
-    //     }
-    //   }
-    // }
+    padding: "0",
+    [theme.breakpoints.down("md")]: {
+      "& ul": {
+        maxHeight: "400px",
+        overflow: "scroll"
+      },
+      width: "100%",
+      "&:not(:last-child)": {
+        "&:after": {
+          width: "calc(100% - 30px)",
+          content: '""',
+          display: "block",
+          height: "1px",
+          marginLeft: "15px",
+          backgroundColor: grayColor[14]
+        }
+      }
+    }
   },
   listItemText: {
     padding: "0 !important"
@@ -80,16 +80,16 @@ const headerLinksStyle = theme => ({
       marginBottom: "0px",
       fontSize: "1.25rem"
     },
-    // [theme.breakpoints.down("md")]: {
-    //   width: "calc(100% - 30px)",
-    //   marginLeft: "15px",
-    //   marginBottom: "8px",
-    //   marginTop: "8px",
-    //   textAlign: "left",
-    //   "& > span:first-child": {
-    //     justifyContent: "flex-start"
-    //   }
-    // },
+    [theme.breakpoints.down("md")]: {
+      width: "calc(100% - 30px)",
+      marginLeft: "15px",
+      marginBottom: "8px",
+      marginTop: "8px",
+      textAlign: "left",
+      "& > span:first-child": {
+        justifyContent: "flex-start"
+      }
+    },
     "& svg": {
       marginRight: "3px",
       width: "20px",
@@ -113,16 +113,16 @@ const headerLinksStyle = theme => ({
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
-    // [theme.breakpoints.down("md")]: {
-    //   width: "calc(100% - 30px)",
-    //   marginLeft: "15px",
-    //   marginBottom: "5px",
-    //   marginTop: "5px",
-    //   textAlign: "left",
-    //   "& > span:first-child": {
-    //     justifyContent: "flex-start"
-    //   }
-    // },
+    [theme.breakpoints.down("md")]: {
+      width: "calc(100% - 30px)",
+      marginLeft: "15px",
+      marginBottom: "5px",
+      marginTop: "5px",
+      textAlign: "left",
+      "& > span:first-child": {
+        justifyContent: "flex-start"
+      }
+    },
     "& $icons": {
       marginRight: "3px"
     }
@@ -188,11 +188,11 @@ const headerLinksStyle = theme => ({
     marginRight: "5px"
   },
   collapse: {
-    // [theme.breakpoints.up("lg")]: {
-    //   display: "flex !important",
-    //   MsFlexPreferredSize: "auto",
-    //   flexBasis: "auto"
-    // },
+    [theme.breakpoints.up("xl")]: {
+      display: "flex !important",
+      MsFlexPreferredSize: "auto",
+      flexBasis: "auto"
+    },
     WebkitBoxFlex: "1",
     MsFlexPositive: "1",
     flexGrow: "1",

@@ -20,7 +20,7 @@ export default function SectionPatents() {
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
     >
       <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
-        <Typography variant="h4" marked="center" align="center" component="h2">
+        <Typography gutterBottom variant="h4" marked="center" align="center" component="h2">
           Patents
         </Typography>
 

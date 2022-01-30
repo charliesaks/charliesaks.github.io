@@ -189,12 +189,11 @@ const headerStyle = theme => ({
     width: "100%"
   },
   collapse: {
-    // CxS: Had to comment out to get working.
-    // [theme.breakpoints.up("md")]: {
-    //   display: "flex !important",
-    //   MsFlexPreferredSize: "auto",
-    //   flexBasis: "auto"
-    // },
+    [theme.breakpoints.up("lg")]: {
+      display: "flex !important",
+      MsFlexPreferredSize: "auto",
+      flexBasis: "auto"
+    },
     WebkitBoxFlex: "1",
     MsFlexPositive: "1",
     flexGrow: "1",

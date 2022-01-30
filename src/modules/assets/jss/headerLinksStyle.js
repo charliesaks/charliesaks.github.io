@@ -188,7 +188,7 @@ const headerLinksStyle = theme => ({
     marginRight: "5px"
   },
   collapse: {
-    [theme.breakpoints.up("xl")]: {
+    [theme.breakpoints.up("lg")]: {
       display: "flex !important",
       MsFlexPreferredSize: "auto",
       flexBasis: "auto"

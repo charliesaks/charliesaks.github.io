@@ -10,13 +10,6 @@ import Typography from '../components/Typography';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function SectionContact() {
-  // const classes = useStyles();
-  /*
-  const LinkedInIcon = ({className}) => {
-    return <i className={"fab fa-linkedin " + className}></i>;
-  }
-  */
-
   return (
     <Box
       component="section"

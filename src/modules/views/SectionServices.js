@@ -69,10 +69,10 @@ export default function SectionServices() {
                     <Icon color="white" sx={{ color: "white" }}>language</Icon>
                     <Typography color="white" variant="h6">Website Design</Typography>
                   </Grid>
-                  <Typography>
+                  <Typography variant="h5">
                     <ul>
-                      <li><h4>Full-stack Responsive Website Development</h4></li>
-                      <li><h4>Wordpress Development</h4></li>
+                      <li>Full-stack Responsive Website Development</li>
+                      <li>Wordpress Development</li>
                     </ul>
                   </Typography>
                 </CardContent>
@@ -88,11 +88,11 @@ export default function SectionServices() {
                     <Icon color="white" sx={{ color: "white" }}>desktop_mac</Icon>
                     <Typography color="white" variant="h6">Software Design</Typography>
                   </Grid>
-                  <Typography>
+                  <Typography variant="h5">
                     <ul>
-                      <li><h4>Application Development</h4></li>
-                      <li><h4>Operating System Design</h4></li>
-                      <li><h4>Compiler Design</h4></li>
+                      <li>Application Development</li>
+                      <li>Operating System Design</li>
+                      <li>Compiler Design</li>
                     </ul>
                   </Typography>
                 </CardContent>
@@ -108,10 +108,10 @@ export default function SectionServices() {
                     <Icon color="white" sx={{ color: "white" }}>storage</Icon>
                     <Typography color="white" variant="h6">Information Technology</Typography>
                   </Grid>
-                  <Typography>
+                  <Typography variant="h5">
                     <ul>
-                      <li><h4>Systems admninistration</h4></li>
-                      <li><h4>Network admninistration</h4></li>
+                      <li>Systems admninistration</li>
+                      <li>Network admninistration</li>
                     </ul>
                   </Typography>
                 </CardContent>
@@ -127,10 +127,10 @@ export default function SectionServices() {
                     <Icon color="white" sx={{ color: "white" }}>trending_up</Icon>
                     <Typography color="white" variant="h6">Program Management</Typography>
                   </Grid>
-                  <Typography>
+                  <Typography variant="h5">
                     <ul>
-                      <li><h4>Project leadership (25 engineers)</h4></li>
-                      <li><h4>Management (5 engineers)</h4></li>
+                      <li>Project leadership (25 engineers)</li>
+                      <li>Management (5 engineers)</li>
                     </ul>
                   </Typography>
                 </CardContent>
@@ -146,11 +146,11 @@ export default function SectionServices() {
                     <Icon color="white" sx={{ color: "white" }}>memory</Icon>
                     <Typography color="white" variant="h6">Hardware Design</Typography>
                   </Grid>
-                  <Typography>
+                  <Typography variant="h5">
                     <ul>
-                      <li><h4>Custom ASIC Design</h4></li>
-                      <li><h4>Digital Hardware design</h4></li>
-                      <li><h4>FPGA Design</h4></li>
+                      <li>Custom ASIC Design</li>
+                      <li>Digital Hardware design</li>
+                      <li>FPGA Design</li>
                     </ul>
                   </Typography>
                 </CardContent>

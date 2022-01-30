@@ -15,6 +15,7 @@ import "animate.css/animate.min.css";
 export default function SectionPatents() {
   return (
     <Box
+      id="patents"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
     >

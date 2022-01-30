@@ -16,7 +16,7 @@ const item = {
 
 export default function SectionDescription() {
   return (
-    <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
+    <Container id="description" component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
       <Grid
         container
         spacing={0}

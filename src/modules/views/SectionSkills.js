@@ -23,6 +23,7 @@ const image = {
 export default function SectionSkills() {
   return (
     <Box
+      id="skills"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
     >

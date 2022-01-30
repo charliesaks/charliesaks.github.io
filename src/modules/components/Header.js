@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
@@ -9,7 +9,7 @@ import { makeStyles } from "@mui/styles";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import Hidden from "@mui/material/Hidden";
 import Drawer from "@mui/material/Drawer";
 // Material UI icons
@@ -67,13 +67,13 @@ export default function Header(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
-        <Button className={classes.title}>
+        {/* <Button className={classes.title}>
           <Link to="/">{brand}</Link>
-        </Button>
-        <Hidden mdDown implementation="css" className={classes.hidden}>
+        </Button> */}
+        <Hidden lgDown implementation="js" className={classes.hidden}>
           <div className={classes.collapse}><HeaderLinks dropdownHoverColor="info" callbackOnClick={null} /></div>
         </Hidden>
-        <Hidden lgUp>
+        <Hidden xlUp implementation="js">
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -83,7 +83,7 @@ export default function Header(props) {
           </IconButton>
         </Hidden>
       </Toolbar>
-      <Hidden lgUp implementation="js">
+      <Hidden xlUp implementation="js">
         <Drawer
           variant="temporary"
           anchor={"right"}

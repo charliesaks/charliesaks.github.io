@@ -21,6 +21,7 @@ const headerLinksStyle = theme => ({
     // [theme.breakpoints.down("md")]: {
     //   display: "block"
     // },
+    flexDirection: "column",
     marginTop: "0px",
     display: "flex",
     paddingLeft: "0",

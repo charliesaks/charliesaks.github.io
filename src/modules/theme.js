@@ -1,28 +1,15 @@
 import { createTheme } from '@mui/material/styles';
 import { green, grey, red } from '@mui/material/colors';
 
-// Primary. #0275d8. Success. #5cb85c. Info. #5bc0de. Warning. #f0ad4e
-
-// primary: {
-//   light: '#46b9fc',
-//   main: '#0275d8',
-//   dark: '#003194',
-// },
-// secondary: {
-//   light: '#fff5f8',
-//   main: '#ff3366',
-//   dark: '#e62958',
-// },
-
 const rawTheme = createTheme({
   palette: {
     primary: {
-      light: '#88f8f8',
+      light: '#ebfefe',
       main: '#008080',
       dark: '#004040',
     },
     secondary: {
-      light: '#fff5f8',
+      light: '#feebeb',
       main: '#800000',
       dark: '#400000',
     },

@@ -15,6 +15,7 @@ import "animate.css/animate.min.css";
 export default function SectionServices() {
   return (
     <Box
+      id="services"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
     >

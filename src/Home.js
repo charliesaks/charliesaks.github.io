@@ -13,6 +13,7 @@ import withRoot from './modules/withRoot';
 import SectionDescription from './modules/views/SectionDescription';
 import SectionServices from './modules/views/SectionServices';
 import SectionSkills from './modules/views/SectionSkills';
+import SectionExperience from './modules/views/SectionExperience';
 import SectionProjects from './modules/views/SectionProjects';
 import SectionEducation from './modules/views/SectionEducation';
 import SectionPatents from './modules/views/SectionPatents';
@@ -80,6 +81,7 @@ function Index() {
         <SectionDescription />
         <SectionServices />
         <SectionSkills />
+        <SectionExperience />
         <SectionProjects />
         <SectionEducation />
         <SectionPatents />

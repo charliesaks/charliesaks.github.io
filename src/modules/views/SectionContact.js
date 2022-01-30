@@ -12,6 +12,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function SectionContact() {
   return (
     <Box
+      id="contact"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
     >

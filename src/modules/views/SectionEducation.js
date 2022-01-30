@@ -15,6 +15,7 @@ import "animate.css/animate.min.css";
 export default function SectionEducation() {
   return (
     <Box
+      id="education"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
     >

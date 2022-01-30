@@ -15,6 +15,7 @@ import "animate.css/animate.min.css";
 export default function SectionCertificates() {
   return (
     <Box
+      id="certificates"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
     >

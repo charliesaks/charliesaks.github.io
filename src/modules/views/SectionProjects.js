@@ -17,6 +17,7 @@ import "animate.css/animate.min.css";
 export default function SectionProjects() {
   return (
     <Box
+      id="projects"
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
     >

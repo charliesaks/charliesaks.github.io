@@ -13,9 +13,9 @@ export default function SectionContact() {
   return (
     <Box
       component="section"
-      sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
+      sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
     >
-      <Container component="section" sx={{ mt: 15, mb: 30, position: 'relative' }}>
+      <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
         <Typography variant="h4" marked="center" align="center" component="h2">
           Get In Touch
         </Typography>
@@ -38,7 +38,8 @@ export default function SectionContact() {
               color="success"
             >
               <Icon sx={{ color: "white" }}>mail_outline</Icon>
-              <Typography color="white" variant="h6">E-mail</Typography>
+              &nbsp;
+              <Typography color="white" variant="h6">Email</Typography>
             </Button>
           </Grid>
 
@@ -52,6 +53,7 @@ export default function SectionContact() {
               color="info"
             >
               <LinkedInIcon sx={{ color: "white" }} />
+              &nbsp;
               <Typography color="white" variant="h6">LinkedIn</Typography>
             </Button>
           </Grid>

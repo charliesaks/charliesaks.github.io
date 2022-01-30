@@ -18,7 +18,7 @@ export default function SectionCertificates() {
       component="section"
       sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'secondary.light' }}
     >
-      <Container component="section" sx={{ mt: 15, mb: 30, position: 'relative' }}>
+      <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
         <Typography variant="h4" marked="center" align="center" component="h2">
           Certificates
         </Typography>

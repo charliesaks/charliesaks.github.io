@@ -12,6 +12,8 @@ import Typography from '../components/Typography';
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 
+// TODO: Add links to new certificates
+
 export default function SectionCertificates() {
   return (
     <Box
@@ -23,6 +25,46 @@ export default function SectionCertificates() {
         <Typography gutterBottom variant="h3" marked="center" align="center">
           Certificates
         </Typography>
+
+        <Grid container direction="row" alignItems="center" justifyContent="center">
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInLeft">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CardMedia
+                    component="img"
+                    image="./images/cka-certificate.jpg"
+                    alt="Charlie Sakamaki's Certified Kubernetes Administrator (CKA) Certificate"
+                  />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CardMedia
+                    component="img"
+                    image="./images/ckad-certificate.jpg"
+                    alt="Charlie Sakamaki's Certified Kubernetes Application Developer (CKAD) Certificate"
+                  />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+        </Grid>
 
         <Grid container direction="row" alignItems="center" justifyContent="center">
 
@@ -218,6 +260,168 @@ export default function SectionCertificates() {
                   component="img"
                   image="./images/certificate_09.jpg"
                   alt="Charlie Sakamaki's Node with React: Fullstack Web Development Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_10.jpg"
+                  alt="Charlie Sakamaki's Complete Ruby on Rails Developer Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInLeft">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_11.jpg"
+                  alt="Charlie Sakamaki's Docker and Kubernetes: The Complete Guide Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_12.jpg"
+                  alt="Charlie Sakamaki's Algorithmic Trading A-Z with Python, Machine Learning and AWS Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInLeft">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_13.jpg"
+                  alt="Charlie Sakamaki's Certified Kubernetes Administrator (CKA) Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_14.jpg"
+                  alt="Charlie Sakamaki's Linux Administration Bootcammp Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInLeft">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_15.jpg"
+                  alt="Charlie Sakamaki's Certified Kubernetes Application Developer (CKAD) Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_16.jpg"
+                  alt="Charlie Sakamaki's Unity Game Developer Masterclass 2021 Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInLeft">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_17.jpg"
+                  alt="Charlie Sakamaki's Unity C# Scripting: Complete C# for Unity Game Development Certificate"
+                />
+                </Button>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__fadeInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <Button
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <CardMedia
+                  component="img"
+                  image="./images/certificate_18.jpg"
+                  alt="Charlie Sakamaki's Complete Guide to C# and Unity Programming - Build and RPG Certificate"
                 />
                 </Button>
               </Card>

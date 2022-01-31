@@ -20,6 +20,35 @@ const image = {
   alignItems: "center",
 };
 
+// Skills to add
+
+// Swift
+// C#
+// Ruby
+// Golang
+
+// PostgreSQL
+// Rails
+// Material UI (MUI)
+// Joomla
+
+// Unity
+
+// DevOps Tools
+// GitLab
+// GitHub
+// Docker
+// Kubernetes
+
+// Gitleaks
+// Fortify
+// Sonarqube
+// Twistlock
+// OWASP ZAP
+// Terrascan
+// Snyk
+
+
 export default function SectionSkills() {
   return (
     <Box
@@ -207,7 +236,7 @@ export default function SectionSkills() {
         <AnimationOnScroll animateIn="animate__slideInLeft">
           <Card>
             <CardContent>
-              <Typography variant="h6">Web Technologies</Typography>
+              <Typography variant="h6">Software Design Tools</Typography>
               <hr />
               <Grid container direction="row" alignItems="center" justifyContent="center" pt={2} pb={2} spacing={2}>
 

@@ -41,6 +41,7 @@ export default function SectionServices() {
                   </Grid>
                   <Typography variant="h5">
                     <ul>
+                      <li>Web Application Development</li>
                       <li>Full-stack Responsive Website Development</li>
                       <li>Wordpress Development</li>
                     </ul>
@@ -60,7 +61,8 @@ export default function SectionServices() {
                   </Grid>
                   <Typography variant="h5">
                     <ul>
-                      <li>Application Development</li>
+                      <li>Desktop Application Development</li>
+                      <li>Mobile Application Development</li>
                       <li>Operating System Design</li>
                       <li>Compiler Design</li>
                     </ul>
@@ -76,12 +78,14 @@ export default function SectionServices() {
                 <CardContent>
                   <Grid container direction="column" alignItems="center" justifyContent="center" pt={2} pb={2} style={{ backgroundColor: "magenta" }}>
                     <Icon color="white" sx={{ color: "white" }}>storage</Icon>
-                    <Typography color="white" variant="h6">Information Technology</Typography>
+                    <Typography color="white" variant="h6">DevOps</Typography>
                   </Grid>
                   <Typography variant="h5">
                     <ul>
-                      <li>Systems admninistration</li>
-                      <li>Network admninistration</li>
+                      <li>DevSecOps</li>
+                      <li>K8s Cluster Creation</li>
+                      <li>Pipeline creation and provisioning</li>
+                      <li>Traditional IT administration</li>
                     </ul>
                   </Typography>
                 </CardContent>
@@ -99,8 +103,8 @@ export default function SectionServices() {
                   </Grid>
                   <Typography variant="h5">
                     <ul>
-                      <li>Project leadership (25 engineers)</li>
-                      <li>Management (5 engineers)</li>
+                      <li>Project leadership</li>
+                      <li>Management</li>
                     </ul>
                   </Typography>
                 </CardContent>

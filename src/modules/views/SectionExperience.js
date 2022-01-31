@@ -31,6 +31,32 @@ export default function SectionExperience() {
               <Card>
                 <CardContent>
                   <Typography align="center" color="white" gutterBottom variant="h4" sx={{ bgcolor: "red" }} p={2}>
+                    RevaComm
+                  </Typography>
+                  <Typography align="center" variant="h6">
+                    Software Engineer
+                  </Typography>
+                  <Typography variant="h5">
+                    <ul>
+                      <li>Worked on a team to port a commercial Learning Management System (LMS) to be used in the DoD DevSecOps Managed Services Platform One.</li>
+                      <li>Worked on a team to create an automated DevSecOps pipeline provisioning tool.</li>
+                      <li>Provisioned numerous pipelines for the DoD DevSecOps Managed Services Platform One.</li>
+                      <li>Worked on team to create the pipeline and tooling for a new DevSecOps initiative under the Centers for Medicare and Medicaid Services (CMS).</li>
+                    </ul>
+                  </Typography>
+                  <Typography align="center" variant="body1" sx={{ bgcolor: "lightgray" }} p={1}>
+                    2020 - present | Honolulu, HI
+                  </Typography>
+                </CardContent>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+        
+          <Grid item xs={12}>
+            <AnimationOnScroll animateIn="animate__fadeIn">
+              <Card>
+                <CardContent>
+                  <Typography align="center" color="white" gutterBottom variant="h4" sx={{ bgcolor: "cyan" }} p={2}>
                     Self Employed
                   </Typography>
                   <Typography align="center" variant="h6">
@@ -45,13 +71,13 @@ export default function SectionExperience() {
                     </ul>
                   </Typography>
                   <Typography align="center" variant="body1" sx={{ bgcolor: "lightgray" }} p={1}>
-                    2013 - present | Honolulu, HI
+                    2013 - 2020 | Honolulu, HI
                   </Typography>
                 </CardContent>
               </Card>
             </AnimationOnScroll>
           </Grid>
-        
+
           <Grid item xs={12}>
             <AnimationOnScroll animateIn="animate__fadeIn">
               <Card>

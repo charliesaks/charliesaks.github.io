@@ -14,6 +14,10 @@ import Typography from '../components/Typography';
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 
+// Projects to add
+// Bible Study tools (bible.joomla.com)
+// Unity Game Demos
+
 export default function SectionProjects() {
   return (
     <Box

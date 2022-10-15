@@ -109,7 +109,7 @@ export default function SectionProjects() {
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <Button
-                    href="https://www.melisaskitchen.netlify.app"
+                    href="https://melisaskitchen.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

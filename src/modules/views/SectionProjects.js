@@ -1,14 +1,14 @@
 import React from "react";
 
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
-import Typography from '../components/Typography';
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import Typography from "../components/Typography";
 
 // library used for cool animations
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -23,15 +23,22 @@ export default function SectionProjects() {
     <Box
       id="projects"
       component="section"
-      sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'primary.light' }}
+      sx={{ display: "flex", overflow: "hidden", bgcolor: "primary.light" }}
     >
-      <Container component="section" sx={{ mt: 15, mb: 20, position: 'relative' }}>
+      <Container
+        component="section"
+        sx={{ mt: 15, mb: 20, position: "relative" }}
+      >
         <Typography gutterBottom variant="h3" marked="center" align="center">
-          Recent Projects
+          Projects
         </Typography>
 
-        <Grid container direction="row" alignItems="center" justifyContent="center">
-
+        <Grid
+          container
+          direction="row"
+          alignItems="center"
+          justifyContent="center"
+        >
           <Grid item xs={12} md={5} p={2} m={2}>
             <AnimationOnScroll animateIn="animate__slideInLeft">
               <Card sx={{ maxWidth: 500 }}>
@@ -54,7 +61,10 @@ export default function SectionProjects() {
                     <Typography variant="h5" color="text.secondary">
                       <ul>
                         <li>Covid Tracker web app</li>
-                        <li>Full-stack web app using Gatsby, React, Leaflet, Bootstrap, vx, D3</li>
+                        <li>
+                          Full-stack web app using Gatsby, React, Leaflet,
+                          Bootstrap, vx, D3
+                        </li>
                       </ul>
                     </Typography>
                   </CardContent>
@@ -124,10 +134,8 @@ export default function SectionProjects() {
               </Card>
             </AnimationOnScroll>
           </Grid>
-
         </Grid>
       </Container>
     </Box>
-
   );
 }

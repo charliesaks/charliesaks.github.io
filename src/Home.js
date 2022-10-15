@@ -1,27 +1,27 @@
-import React from 'react';
+import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@mui/styles";
 
-import Avatar from '@mui/material/Avatar';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
-import Typography from './modules/components/Typography';
+import Avatar from "@mui/material/Avatar";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import Typography from "./modules/components/Typography";
 
-import withRoot from './modules/withRoot';
-import SectionDescription from './modules/views/SectionDescription';
-import SectionServices from './modules/views/SectionServices';
-import SectionSkills from './modules/views/SectionSkills';
-import SectionExperience from './modules/views/SectionExperience';
-import SectionProjects from './modules/views/SectionProjects';
-import SectionEducation from './modules/views/SectionEducation';
-import SectionPatents from './modules/views/SectionPatents';
-import SectionCertificates from './modules/views/SectionCertificates';
-import SectionContact from './modules/views/SectionContact';
+import withRoot from "./modules/withRoot";
+import SectionDescription from "./modules/views/SectionDescription";
+import SectionServices from "./modules/views/SectionServices";
+import SectionSkills from "./modules/views/SectionSkills";
+// import SectionExperience from './modules/views/SectionExperience';
+import SectionProjects from "./modules/views/SectionProjects";
+import SectionEducation from "./modules/views/SectionEducation";
+import SectionPatents from "./modules/views/SectionPatents";
+import SectionCertificates from "./modules/views/SectionCertificates";
+import SectionContact from "./modules/views/SectionContact";
 
-import Header from './modules/components/Header';
-import Parallax from './modules/components/Parallax';
+import Header from "./modules/components/Header";
+import Parallax from "./modules/components/Parallax";
 
 import presentationStyle from "./modules/assets/jss/presentationStyle.js";
 
@@ -31,20 +31,30 @@ function Index() {
   const classes = useStyles();
   return (
     <React.Fragment>
-
       <Header
         brand="Charlie Sakamaki"
         fixed
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: "info"
+          color: "info",
         }}
       />
 
-      <Parallax image="/images/charlie/Laie-point.jpg" className={classes.parallax}>
-        <Container component="section" sx={{ mt: 15, mb: 30, position: 'relative' }}>
-          <Grid container direction="column" alignItems="center" justifyContent="center">
+      <Parallax
+        image="/images/charlie/Laie-point.jpg"
+        className={classes.parallax}
+      >
+        <Container
+          component="section"
+          sx={{ mt: 15, mb: 30, position: "relative" }}
+        >
+          <Grid
+            container
+            direction="column"
+            alignItems="center"
+            justifyContent="center"
+          >
             &nbsp;
             <br />
             &nbsp;
@@ -55,7 +65,11 @@ function Index() {
             <br />
             &nbsp;
             <Grid item xs={12}>
-              <Avatar alt="Charlie Sakamaki" src="/images/Charlie_Sakamaki_face.jpg" sx={{ width: 128, height: 128 }} />
+              <Avatar
+                alt="Charlie Sakamaki"
+                src="/images/Charlie_Sakamaki_face.jpg"
+                sx={{ width: 128, height: 128 }}
+              />
             </Grid>
             &nbsp;
             <br />
@@ -81,7 +95,7 @@ function Index() {
         <SectionDescription />
         <SectionServices />
         <SectionSkills />
-        <SectionExperience />
+        {/* <SectionExperience /> */}
         <SectionProjects />
         <SectionEducation />
         <SectionPatents />

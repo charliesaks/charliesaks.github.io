@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build; gh-pages -d build",
-    "deploy": "rm -rf charliesaks.github.io/*; cp -r build/* charliesaks.github.io/; pwd; ls; cd charliesaks.gitbub.io; git add .; git commit -m 'Auto-release'; git push"
+    "deploy": "rm -rf charliesaks.github.io/*; cp -r build/* charliesaks.github.io/; cd charliesaks.github.io; git add .; git commit -m 'Auto-release'; git push"
   },
   "eslintConfig": {
     "extends": [

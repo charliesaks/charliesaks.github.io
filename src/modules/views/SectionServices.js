@@ -31,7 +31,7 @@ export default function SectionServices() {
           justifyContent="center"
           style={{ minHeight: '40vh' }}
         >
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={6}>
             <AnimationOnScroll animateIn="animate__fadeInLeft">
               <Card variant="outlined">
                 <CardContent>
@@ -51,7 +51,7 @@ export default function SectionServices() {
             </AnimationOnScroll>
           </Grid>
 
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={6}>
             <AnimationOnScroll animateIn="animate__fadeInDown">
               <Card variant="outlined">
                 <CardContent>
@@ -72,7 +72,7 @@ export default function SectionServices() {
             </AnimationOnScroll>
           </Grid>
 
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={6}>
             <AnimationOnScroll animateIn="animate__fadeInRight">
               <Card variant="outlined">
                 <CardContent>
@@ -93,7 +93,7 @@ export default function SectionServices() {
             </AnimationOnScroll>
           </Grid>
 
-          <Grid item xs={12} md={4}>
+          {/* <Grid item xs={12} md={4}>
             <AnimationOnScroll animateIn="animate__fadeInLeft">
               <Card variant="outlined">
                 <CardContent>
@@ -110,9 +110,9 @@ export default function SectionServices() {
                 </CardContent>
               </Card>
             </AnimationOnScroll>
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={6}>
             <AnimationOnScroll animateIn="animate__fadeInRight">
               <Card variant="outlined">
                 <CardContent>

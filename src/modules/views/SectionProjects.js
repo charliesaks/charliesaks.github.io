@@ -44,6 +44,37 @@ export default function SectionProjects() {
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <Button
+                    href="https://melisaskitchen.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <CardMedia
+                      component="img"
+                      image="./images/melisas-kitchen.jpg"
+                      alt="Melisa's Kitchen Website"
+                    />
+                  </Button>
+                  <CardContent>
+                    <Typography gutterBottom variant="h6" component="div">
+                      Melisa's Kitchen
+                    </Typography>
+                    <Typography variant="h5" color="text.secondary">
+                      <ul>
+                        <li>Cooking blog website</li>
+                        <li>Made using React.js and Gatsby with Netlify CMS</li>
+                      </ul>
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__slideInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <CardActionArea>
+                  <Button
                     href="https://charlies-covid-tracker.surge.sh"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -74,7 +105,7 @@ export default function SectionProjects() {
           </Grid>
 
           <Grid item xs={12} md={5} p={2} m={2}>
-            <AnimationOnScroll animateIn="animate__slideInRight">
+            <AnimationOnScroll animateIn="animate__slideInLeft">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <Button
@@ -95,37 +126,6 @@ export default function SectionProjects() {
                     <Typography variant="h5" color="text.secondary">
                       <ul>
                         <li>Website for local musician</li>
-                        <li>Made using WordPress</li>
-                      </ul>
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </AnimationOnScroll>
-          </Grid>
-
-          <Grid item xs={12} md={5} p={2} m={2}>
-            <AnimationOnScroll animateIn="animate__slideInRight">
-              <Card sx={{ maxWidth: 500 }}>
-                <CardActionArea>
-                  <Button
-                    href="https://melisaskitchen.netlify.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <CardMedia
-                      component="img"
-                      image="./images/melisas-kitchen.jpg"
-                      alt="Melisa's Kitchen Website"
-                    />
-                  </Button>
-                  <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
-                      Melisa's Kitchen
-                    </Typography>
-                    <Typography variant="h5" color="text.secondary">
-                      <ul>
-                        <li>Cooking blog website</li>
                         <li>Made using WordPress</li>
                       </ul>
                     </Typography>

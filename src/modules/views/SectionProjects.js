@@ -44,13 +44,13 @@ export default function SectionProjects() {
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <Button
-                    href="https://melisaskitchen.netlify.app"
+                    href="https://melisaskitchen.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <CardMedia
                       component="img"
-                      image="./images/melisas-kitchen.jpg"
+                      image="./images/melisas-kitchen-new.jpg"
                       alt="Melisa's Kitchen Website"
                     />
                   </Button>
@@ -61,7 +61,9 @@ export default function SectionProjects() {
                     <Typography variant="h5" color="text.secondary">
                       <ul>
                         <li>Cooking blog website</li>
-                        <li>Made using React.js and Gatsby with Netlify CMS</li>
+                        <li>
+                          Full-stack web app using React, Next.js, Tailwind CSS
+                        </li>
                       </ul>
                     </Typography>
                   </CardContent>

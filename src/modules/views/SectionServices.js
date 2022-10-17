@@ -52,7 +52,7 @@ export default function SectionServices() {
           </Grid>
 
           <Grid item xs={12} md={6}>
-            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <AnimationOnScroll animateIn="animate__fadeInRight">
               <Card variant="outlined">
                 <CardContent>
                   <Grid container direction="column" alignItems="center" justifyContent="center" pt={2} pb={2} style={{ backgroundColor: "blue" }}>
@@ -73,7 +73,7 @@ export default function SectionServices() {
           </Grid>
 
           <Grid item xs={12} md={6}>
-            <AnimationOnScroll animateIn="animate__fadeInRight">
+            <AnimationOnScroll animateIn="animate__fadeInLeft">
               <Card variant="outlined">
                 <CardContent>
                   <Grid container direction="column" alignItems="center" justifyContent="center" pt={2} pb={2} style={{ backgroundColor: "magenta" }}>

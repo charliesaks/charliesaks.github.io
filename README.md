@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# README
+
+## TODO
+
+- Find projects to add
+- Add to Skills
+  - Languages
+    - Ruby
+    - C#
+    - Java
+    - Swift
+  - Web Technologies
+    - NextJS
+    - PostgreSQL
+    - Tailwind CSS
+    - Joomla
+    - Unity
+    - MUI (Material UI)
+    - Gatsby
+  - Software Design Tools
+    - IntelliJ
+    - VSCode
+- Add any certificates
+- Create light and dark mode
+- Create email server for charliesakamaki.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

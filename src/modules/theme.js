@@ -1,21 +1,21 @@
-import { createTheme } from '@mui/material/styles';
-import { green, grey, red } from '@mui/material/colors';
+import { createTheme } from "@mui/material/styles";
+import { green, grey, red } from "@mui/material/colors";
 
 const rawTheme = createTheme({
   palette: {
     primary: {
-      light: '#ebfefe',
-      main: '#008080',
-      dark: '#004040',
+      light: "#ebfefe",
+      main: "#008080",
+      dark: "#004040",
     },
     secondary: {
-      light: '#feebeb',
-      main: '#800000',
-      dark: '#400000',
+      light: "#feebeb",
+      main: "#800000",
+      dark: "#400000",
     },
     warning: {
-      main: '#ffc071',
-      dark: '#ffb25e',
+      main: "#ffc071",
+      dark: "#ffb25e",
     },
     error: {
       light: red[50],
@@ -29,7 +29,7 @@ const rawTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: "'Work Sans', sans-serif",
+    fontFamily: "'Inter', sans-serif",
     fontSize: 14,
     fontWeightLight: 300, // Work Sans
     fontWeightRegular: 400, // Work Sans
@@ -40,8 +40,8 @@ const rawTheme = createTheme({
 const fontHeader = {
   color: rawTheme.palette.text.primary,
   fontWeight: rawTheme.typography.fontWeightMedium,
-  fontFamily: "'Roboto Condensed', sans-serif",
-  textTransform: 'uppercase',
+  fontFamily: "'Inter', 'Roboto Condensed', sans-serif",
+  textTransform: "uppercase",
 };
 
 const theme = {

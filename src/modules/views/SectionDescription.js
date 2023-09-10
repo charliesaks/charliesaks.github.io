@@ -79,8 +79,8 @@ export default function SectionDescription() {
               Multi-Disciplined
             </Typography>
             <Typography align="center" variant="h5">
-              {"Experience in hardware design, Information Technology (IT), "}
-              {"project management and leadership."}
+              {"Experience in hardware design, Information Technology, "}
+              {"DevSecOps, project leadership."}
             </Typography>
           </Box>
         </Grid>

@@ -44,7 +44,41 @@ export default function SectionProjects() {
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                   <Button
-                    href="https://melisaskitchen.vercel.app"
+                    href="https://808caravan.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <CardMedia
+                      component="img"
+                      image="./images/808Caravan.jpg"
+                      alt="808 Caravan Website"
+                    />
+                  </Button>
+                  <CardContent>
+                    <Typography gutterBottom variant="h6" component="div">
+                      808 Caravan
+                    </Typography>
+                    <Typography variant="h5" color="text.secondary">
+                      <ul>
+                        <li>808 Caravan Website</li>
+                        <li>
+                          Single-Page Application (SPA) web app React, Next.js,
+                          Tailwind CSS, and other open-source technologies
+                        </li>
+                      </ul>
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__slideInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <CardActionArea>
+                  <Button
+                    href="https://melisaskitchen.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -62,7 +96,8 @@ export default function SectionProjects() {
                       <ul>
                         <li>Cooking blog website</li>
                         <li>
-                          Full-stack web app using React, Next.js, Tailwind CSS
+                          Single-Page Application (SPA) web app using React,
+                          Next.js, Tailwind CSS
                         </li>
                       </ul>
                     </Typography>
@@ -73,6 +108,68 @@ export default function SectionProjects() {
           </Grid>
 
           <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__slideInLeft">
+              <Card sx={{ maxWidth: 500 }}>
+                <CardActionArea>
+                  <Button
+                    href="https://808caravan.com/keno"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <CardMedia
+                      component="img"
+                      image="./images/808Keno.jpg"
+                      alt="808 Keno app"
+                    />
+                  </Button>
+                  <CardContent>
+                    <Typography gutterBottom variant="h6" component="div">
+                      808 Kenovan (Keno Game)
+                    </Typography>
+                    <Typography variant="h5" color="text.secondary">
+                      <ul>
+                        <li>Responsive Keno Application</li>
+                        <li>Technologies: React, Redux, and Howler</li>
+                      </ul>
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          <Grid item xs={12} md={5} p={2} m={2}>
+            <AnimationOnScroll animateIn="animate__slideInRight">
+              <Card sx={{ maxWidth: 500 }}>
+                <CardActionArea>
+                  <Button
+                    href="https://808caravan.com/drum-machine"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <CardMedia
+                      component="img"
+                      image="./images/808DrumMachine.jpg"
+                      alt="808 Keno app"
+                    />
+                  </Button>
+                  <CardContent>
+                    <Typography gutterBottom variant="h6" component="div">
+                      808 Caravan Drum Machine
+                    </Typography>
+                    <Typography variant="h5" color="text.secondary">
+                      <ul>
+                        <li>Drum Machine Application</li>
+                        <li>Technologies: React, Redux, and Howler</li>
+                      </ul>
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </AnimationOnScroll>
+          </Grid>
+
+          {/* <Grid item xs={12} md={5} p={2} m={2}>
             <AnimationOnScroll animateIn="animate__slideInRight">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
@@ -104,9 +201,9 @@ export default function SectionProjects() {
                 </CardActionArea>
               </Card>
             </AnimationOnScroll>
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={12} md={5} p={2} m={2}>
+          {/* <Grid item xs={12} md={5} p={2} m={2}>
             <AnimationOnScroll animateIn="animate__slideInLeft">
               <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
@@ -135,7 +232,7 @@ export default function SectionProjects() {
                 </CardActionArea>
               </Card>
             </AnimationOnScroll>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </Box>
